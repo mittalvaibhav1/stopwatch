@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    font-family: sans-serif; 
+}
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.container {
+    padding-block: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.timer {
+    text-align: center;
+    margin: 30px auto;
+}
+.timer_text {
+    color: #DF6E3C;
+    font-size: 70px;
+    font-weight: 100;
+    word-spacing: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: inherit;
+    margin: 50px auto;
+}
+.lap {
+    background: transparent;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%; 
+    border:  8px double #353535;
+    /* border: 8px double rgba(254, 253, 117 ,0.69); */
+    cursor: pointer;
+}
+.stop {
+    background: transparent;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%; 
+    /* border:  8px double #351614; */
+    border: 8px double rgba(8, 251, 205, 0.7);
+    cursor: pointer;
+}
+
+.lap-child {
+    background: #353535;
+    /* background: rgba(254, 253, 117 ,0.69); */
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lap-child span {
+    color: rgba(255, 255, 255, 0.85);
+}
+.stop-child {
+    /* background: #351614; */
+    background: rgba(8, 251, 205, 0.69);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stop-child span {
+    /* color: rgba(255, 0, 0, 0.85); */
+    color: rgba(8, 251, 205, 1);
+}
+ul {
+    padding: 0px;
+}
+.list-container {
+    box-sizing: border-box;
+    width: 50vw;
+    list-style-type: none;
+    margin: 0px;
+}
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #2E2E2E;
+    padding: 0px 20px;
+    height: 50px;
+}
+.lap_no {
+    color: rgb(161, 158, 158);
+}
